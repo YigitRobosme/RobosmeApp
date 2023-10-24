@@ -1,0 +1,18 @@
+{
+    "extends": "@react-native-community",
+    "ignorePatterns": [
+        "phoneDetect.js",
+        "metro.config.js",
+        "**/svg/*/*.js",
+        "i18n.js"
+    ],
+    "rules": {
+        "quotes": [
+            2,
+            "double",
+            {
+                "avoidEscape": true
+            }
+        ]
+    }
+}
